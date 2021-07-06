@@ -67,46 +67,51 @@ h6 {
     margin-right: 45px;
 }
 
-.menu__right {
+.navbar__right {
     display: flex;
     flex-basis: 270px;
     flex-direction: column;
 }
 
-.menu__right-top,
-.menu__right-down {
+.navbar__right-top,
+.navbar__right-down {
     display: flex;
     justify-content: center;
     margin: 8px 0 8px 32px;
 }
 
-.menu__right-link {
+.navbar__right-link {
     text-decoration: none;
     font-size: 2rem;
     color: var(--black-corlor);
 }
 
-.menu__right-link i {
+.navbar__right-link:hover {
+    color: var(--base-corlor);
+}
+
+.navbar__right-link i {
     font-size: 33px;
 }
 
-.menu__right-down {
+.navbar__right-down {
     margin-top: 32px;
     margin-right: 32px;
 }
 
-.menu__right-top .menu__right-link:first-child,
-.menu__right-down .menu__right-link:first-child {
+.navbar__right-top .navbar__right-link:first-child,
+.navbar__right-down .navbar__right-link:first-child {
     margin-right: 32px;
 }
 
 .navbar__mid-menu {
     margin-top: 24px;
+    display: flex;
+    height: 40px;
 }
 
 .menu__category,
-.menu__seach {
-    display: inline-block;
+.menu__search {
     position: relative;
 }
 
@@ -119,10 +124,10 @@ h6 {
     font-size: 24px;
     border: 1px solid #E8E9E9;
     color: #808285;
-    padding: 7px 6px 6px 9px;
-    height: 40px;
+    padding: 6px 0 7px 10px;
     width: 40px;
 }
+
 /* Menu cấp */
 .menu__category-list,
 .menu__category-list-sub {
@@ -132,10 +137,11 @@ h6 {
     width: 250px;
     background-color: var(--white-corlor);
     border-radius: 5px;
+    /* Có lỗi, nhưng chưa nghĩ ra cách fix :)) */
 }
 
 .menu__category:hover .menu__category-list {
-    display: inline-block;
+    display: block;
 }
 
 .menu__category-item:hover .menu__category-list-sub {
@@ -146,11 +152,11 @@ h6 {
     border-right: none;
 }
 
-.menu__category-item:hover > a {
+.menu__category-item:hover>a {
     opacity: 0.7;
 }
 
-.menu__category-item-sub > a:hover {
+.menu__category-item-sub>a:hover {
     opacity: 0.7;
 }
 
@@ -159,6 +165,8 @@ h6 {
     right: 0;
     margin-top: 8px;
     box-shadow: 0 4px 24px 0 rgb(0 0 0 / 36%);
+    transform-origin: 95% top;
+    animation: zoomInOut ease-in 0.2s;
 }
 
 .menu__category-item,
@@ -208,6 +216,7 @@ h6 {
 .menu__category-list li:last-child {
     border-bottom: none;
 }
+
 .menu__category-list-sub li:first-child {
     border-right: none;
 }
@@ -235,4 +244,35 @@ h6 {
     height: 40px;
     top: -40px;
     right: 0;
+}
+
+/* Thanh seach */
+.menu__search {
+    border: 1px solid var(--base-corlor);
+    width: 100%;
+    display: flex;
+    border-radius: 4px;
+}
+
+.menu__search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    padding: 0 16px;
+}
+
+.menu__search-icon {
+    padding: 6px 16px;
+    background-color: var(--base-corlor);
+    color: var(--white-corlor);
+    margin: 1px;
+    border-radius: 3px;
+    font-size: 2.4rem;
+    cursor: pointer;
+}
+
+.menu__search-icon:hover {
+    background-color: #d85027;
 }

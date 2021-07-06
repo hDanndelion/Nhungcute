@@ -2,9 +2,10 @@
     --white-corlor: #fff;
     --black-corlor: #000;
     --text-corlor: #333;
+    --base-corlor: #f1592b;
 }
 
-*{
+* {
     box-sizing: inherit;
 }
 
@@ -34,4 +35,16 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+@keyframes zoomInOut {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
