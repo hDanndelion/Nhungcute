@@ -22,6 +22,10 @@ html {
     font-family: "Comic Sans VN";
 }
 
+#page {
+    background-color: #eee;
+}
+
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -35,6 +39,14 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.grid__column-1 {
+    width: 20%;
+}
+
+.grid__column-4 {
+    width: 80%;
 }
 
 @keyframes zoomInOut {
