@@ -1,8 +1,8 @@
 :root {
-    --white-corlor: #fff;
-    --black-corlor: #000;
-    --text-corlor: #333;
-    --base-corlor: #f1592b;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --base-color: #f1592b;
 }
 
 * {
@@ -45,8 +45,31 @@ html {
     width: 20%;
 }
 
+.grid__column-1-4 {
+    width: 25%;
+}
+
 .grid__column-4 {
     width: 80%;
+}
+
+.color_base {
+    color: var(--base-color);
+}
+
+.disable {
+    pointer-events: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Button */
+.btn {
+    background-color: var(--base-color);
+    color: var(--white-color);
+    border-radius: 2px;
 }
 
 @keyframes zoomInOut {
@@ -57,6 +80,16 @@ html {
 
     to {
         transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes downWard {
+    from {
+
+    }
+    to {
+        top: 40%;
         opacity: 1;
     }
 }
