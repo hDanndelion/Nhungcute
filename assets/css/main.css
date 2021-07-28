@@ -28,6 +28,10 @@ ul {
     margin-top: 12px;
 }
 
+.navbar__left-logo-img {
+    width: 162px;
+}
+
 .navbar__mid {
     flex-basis: 700px;
 }
@@ -293,6 +297,49 @@ ul {
 
 .menu__search-icon:hover {
     background-color: #d85027;
+}
+
+/* header__fix */
+#header.header__fix {
+    position: fixed;
+    top: -6%;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+    transform: translateY(96%);
+    box-shadow: 0 0 17px 1px rgb(0 0 0 / 10%);
+    transition: transform ease-in-out 0.3s;
+    will-change: transform;
+}
+
+#header.header__fix .navbar__mid-list,
+#header.header__fix .navbar__right-top-dealHot,
+#header.header__fix .navbar__right-down-searchOrd {
+    display: none;
+}
+
+#header.header__fix .navbar__left-logo {
+    margin-top: 0;
+    text-align: center;
+}
+
+#header.header__fix .navbar__left-logo-img {
+    width: inherit;
+    height: 39px;
+}
+
+#header.header__fix .navbar__right {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+#header.header__fix .navbar__right-down {
+    margin-top: 0;
+}
+
+#header.header__fix .navbar__mid-menu {
+    margin-top: 0;
 }
 
 /* Main */
@@ -684,6 +731,10 @@ ul {
     line-height: 35px;
     cursor: pointer;
     font-size: 2rem;
+}
+
+.footer__content-btn:hover {
+    opacity: 0.9;
 }
 
 .footer__text {
