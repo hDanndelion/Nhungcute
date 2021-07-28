@@ -334,7 +334,7 @@ ul {
 
 .sidebar__category-header-link {
     font-size: 2rem;
-    padding: 8px 40px ;
+    padding: 8px 40px;
 }
 
 .sidebar__category-list {
@@ -410,9 +410,7 @@ ul {
     display: none;
 }
 
-.sidebar__header-interaction--minus {
-
-}
+.sidebar__header-interaction--minus {}
 
 .css-sidebar2 {
     padding-top: 16px;
@@ -448,9 +446,7 @@ ul {
     margin: 8px 24px;
 }
 
-.main__container-head-sub {
-    
-}
+.main__container-head-sub {}
 
 .main__container-head-link {
     text-decoration: none;
@@ -626,4 +622,93 @@ ul {
 
 .main__product-cart i {
     color: var(--base-color);
+}
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    border-top: 4px solid var(--base-color);
+    padding: 38px 15px 30px 15px;
+    margin-top: 20px;
+}
+
+.footer__content {
+    font-size: 2.2rem;
+    line-height: 2rem;
+    margin-bottom: 12px;
+}
+
+.footer__content-heading {
+    margin-bottom: 15px;
+}
+
+.footer__content-list {
+    list-style: none;
+}
+
+.footer__content-link {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.7rem;
+}
+
+.hotline {
+    color: var(--base-color);
+    font-weight: 700;
+}
+
+.footer__content-form {
+    margin-bottom: 30px;
+}
+
+.footer__content-form,
+.footer__content-morei4 {
+    justify-content: space-between;
+}
+
+.footer__content-input {
+    flex: 1;
+    font-size: 1.7rem;
+    height: 40px;
+    padding: 0 12px;
+    color: var(--text-color);
+    outline: none;
+    border: 1px solid #999;
+    border-radius: 2px;
+    margin-right: 20px;
+}
+
+.footer__content-btn {
+    width: 85px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.footer__text {
+    border-top: 1px solid #999;
+    padding-top: 30px;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #666;
+}
+
+.return-to-top {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.return-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background: #df181c;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border-radius: 35px;
+    cursor: pointer;
 }

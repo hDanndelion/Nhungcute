@@ -20,6 +20,7 @@ html {
     line-height: 1.6rem;
     box-sizing: border-box;
     font-family: "Comic Sans VN";
+    scroll-behavior: smooth;
 }
 
 #page {
@@ -51,6 +52,14 @@ html {
 
 .grid__column-4 {
     width: 80%;
+}
+
+.grid__column-6 {
+    width: 50%;
+}
+
+.grid__column-2-6 {
+    width: 33.33333%;
 }
 
 .color_base {
