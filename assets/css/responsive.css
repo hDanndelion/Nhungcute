@@ -1,0 +1,23 @@
+/* PC low resolution */
+@media (min-width: 64em) and (max-width: 78.125em) {
+    html {
+        font-size: 57.5%;
+    }
+    .main__container {
+        margin-left: 20px;
+    }
+
+    .main__products {
+        padding: 12px;
+    }
+}
+
+/* Ipad */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    
+}

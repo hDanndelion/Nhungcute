@@ -23,45 +23,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#page {
-    background-color: #eee;
-}
-
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
-.grid__row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid__column-1 {
-    width: 20%;
-}
-
-.grid__column-1-4 {
-    width: 25%;
-}
-
-.grid__column-4 {
-    width: 80%;
-}
-
-.grid__column-6 {
-    width: 50%;
-}
-
-.grid__column-2-6 {
-    width: 33.33333%;
-}
-
 .color_base {
     color: var(--base-color);
 }
@@ -70,7 +31,7 @@ html {
     pointer-events: none;
 }
 
-.hidden {
+.hidden-PC {
     display: none;
 }
 

@@ -4,18 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initiacol l-scale=1.0">
     <title>Nhung cute :3</title>
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 
 <body>
     <div id="page" class="wrapper">
-        <header id="header" class="">
-            <div class="grid">
+        <header id="header" class="header__fix">
+            <div class="grid wide">
                 <nav class="navbar">
                     <div class="navbar__left-logo"><a href=""><img class="navbar__left-logo-img" src="./assets/img/logo-waka.png"
                                 alt="Logo shop"></a></div>
@@ -179,9 +181,9 @@
         </header>
 
         <main id="main">
-            <div class="grid">
-                <div class="grid__row main__content">
-                    <div class="grid__column-1">
+            <div class="grid wide">
+                <div class="main__content row">
+                    <div class="col l-12-1">
                         <!-- Danh mục sản phẩm -->
                         <div class="sidebar">
                             <div class="sidebar__header">
@@ -414,7 +416,7 @@
                         </div>
                     </div>
 
-                    <div class="grid__column-4">
+                    <div class="col l-12-4">
                         <div class="main__container">
                             <div class="main__container--wrap">
                                 <div class="main__container-header">
@@ -438,8 +440,8 @@
                                     </ul>
                                 </div>
 
-                                <div class="main__container-wrap grid__row">
-                                    <div class="main__products grid__column-1-4">
+                                <div class="main__products-wrap row">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
@@ -476,7 +478,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product2.jpg);"></div>
@@ -513,7 +515,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product3.jpg);"></div>
@@ -550,7 +552,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product4.jpg);"></div>
@@ -586,7 +588,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
@@ -623,7 +625,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
@@ -660,7 +662,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products grid__column-1-4">
+                                    <div class="main__products col l-3">
                                         <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
@@ -727,11 +729,11 @@
         </main>
 
         <footer id="footer">
-            <div class="footer grid">
-                <div class="footer__content grid__row">
-                    <div class="grid__column-6">
-                        <div class="grid__row">
-                            <div class="grid__column-2-6">
+            <div class="footer grid wide">
+                <div class="footer__content row">
+                    <div class="col l-6">
+                        <div class="row">
+                            <div class="col l-4">
                                 <p class="footer__content-heading">Hỗ trợ khách hàng</p>
 
                                 <ul class="footer__content-list">
@@ -753,7 +755,7 @@
                                 </ul>
                             </div>
 
-                            <div class="grid__column-2-6">
+                            <div class="col l-4">
                                 <p class="footer__content-heading">Chính sách</p>
 
                                 <ul class="footer__content-list">
@@ -769,7 +771,7 @@
                                 </ul>
                             </div>
 
-                            <div class="grid__column-2-6">
+                            <div class="col l-4">
                                 <p class="footer__content-heading">Tài khoản của bạn</p>
 
                                 <ul class="footer__content-list">
@@ -790,17 +792,17 @@
                         </div>
                     </div>
 
-                    <div class="grid__column-6">
-                        <div class="grid__row">
+                    <div class="col l-6">
+                        <div class="row">
                             <p class="footer__content-heading">Đăng ký nhận thông tin sách mới,mã giảm giá, CTKM</p>
 
-                            <div class="footer__content-form grid__row grid__full-width">
+                            <div class="footer__content-form row">
                                 <input type="text" class="footer__content-input"
                                     placeholder="Nhập vào email của bạn ...">
                                 <div class="footer__content-btn btn">Đăng ký</div>
                             </div>
 
-                            <div class="footer__content-morei4 grid__row grid__full-width">
+                            <div class="footer__content-morei4 row">
                                 <div class="footer__content-payment grid__column-0-6">
                                     <p class="footer__content-heading">Thanh toán</p>
                                     <div class="footer__content-payment-img"><img src="/assets/img/Payment.png"
@@ -835,7 +837,7 @@
             </div>
         </footer>
 
-        <a href="#page"><img class="return-to-top hidden" src="/assets/img/top.png" alt="GOtoTOP"></a>
+        <a href="#page"><img class="return-to-top hidden-PC" src="/assets/img/top.png" alt="GOtoTOP"></a>
     </div>
 </body>
 
