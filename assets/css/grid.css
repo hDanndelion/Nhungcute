@@ -53,10 +53,24 @@
     max-width: 50%;
 }
 
+/* PC and PC-low */
+@media (min-width: 64em) {
+    .hide-PCnPClow {
+        display: none;
+    }
+}
+
 /* PC low resolution */
 @media (min-width: 64em) and (max-width: 78.125em) {
     .grid.wide {
         width: 984px;
+    }
+}
+
+/* Ipad and Mobile */
+@media (max-width: 63.9375em) {
+    #page .hide-ipadnmobile {
+        display: none;
     }
 }
 
@@ -68,6 +82,16 @@
 
     .hide-ipad {
         display: none;
+    }
+
+    .m-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
 

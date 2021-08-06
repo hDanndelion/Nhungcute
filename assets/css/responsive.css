@@ -3,6 +3,7 @@
     html {
         font-size: 57.5%;
     }
+
     .main__container {
         margin-left: 20px;
     }
@@ -10,11 +11,55 @@
     .main__products {
         padding: 12px;
     }
+
+    .main__product-img-label {
+        font-size: 1.4rem;
+    }
 }
 
 /* Ipad */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .navbar__left-logo {
+        flex-basis: initial;
+        margin: auto 16px;
+    }
+
+    .navbar__right {
+        flex-basis: initial;
+    }
     
+    .navbar__mid {
+        flex: 1;
+    }
+    
+    .navbar__right-top, 
+    .navbar__right-down {
+        margin: 8px 16px auto 16px;
+    }
+
+    .menu__category:hover .menu__category-list {
+        display: none;
+    }
+
+    .main__content {
+        margin-top: 60px;
+    }
+    
+    #checkbox:checked ~ .overlay {
+        display: block;
+    }
+
+    .sidebar__wrap {
+        position: fixed;
+        background-color: #fff;
+        width: 240px;
+        left: -240px;
+        max-height: 75vh;
+        opacity: 0;
+        overflow: scroll;
+        z-index: 1;
+        transition: all linear 0.3s;
+    }
 }
 
 /* Mobile */

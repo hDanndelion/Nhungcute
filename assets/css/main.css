@@ -558,6 +558,9 @@ ul {
 /* products */
 .main__products {
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main__product-link {
@@ -578,7 +581,7 @@ ul {
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding: 8px 20px;
     opacity: 0;
 }
@@ -604,11 +607,13 @@ ul {
 
 .main__product-pride {
     font-size: 1.6rem;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .main__product-pride span {
     margin-right: 8px;
+    display: inline-block;
+    margin-bottom: 4px;
 }
 
 .main__product-pride--current {

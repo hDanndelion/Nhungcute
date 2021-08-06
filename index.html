@@ -55,7 +55,9 @@
 
                         <div class="navbar__mid-menu">
                             <div class="menu__category">
-                                <i class="fas fa-align-justify"></i>
+                                <label for="checkbox" id="menu__category"><i class="fas fa-align-justify"></i></label>
+                                <input type="checkbox" id="checkbox" class="hidden">
+                                <label for="checkbox" class="overlay hide-PCnPClow"></label>
                                 <ul class="menu__category-list">
                                     <li class="menu__category-item">Danh mục</li>
                                     <li class="menu__category-item">
@@ -183,240 +185,240 @@
         <main id="main">
             <div class="grid wide">
                 <div class="main__content row">
-                    <div class="col l-12-1">
-                        <!-- Danh mục sản phẩm -->
-                        <div class="sidebar">
-                            <div class="sidebar__header">
-                                <h4 class="sidebar__header-name">DANH MỤC SẢN PHẨM</h4>
-                                <div class="sidebar__header-interaction">
-                                    <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
-                                    <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+                    <div class="sidebar__wrap col l-12-1 m-12">
+                            <!-- Danh mục sản phẩm -->
+                            <div class="sidebar">
+                                <div class="sidebar__header">
+                                    <h4 class="sidebar__header-name">DANH MỤC SẢN PHẨM</h4>
+                                    <div class="sidebar__header-interaction">
+                                        <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
+                                        <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Thiếu nhi</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link action">Cổ tích
-                                            - Thần thoại</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kiến
-                                            thức - Bách khoa</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Bài học
-                                            cuộc sống</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
-                                            tranh</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Kinh Doanh</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Khởi
-                                            nghiệp</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link">Marketing - Bán hàng</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Quản
-                                            trị - Lãnh đạo</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Đầu tư
-                                            - Tài chính</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kiến
-                                            thức kinh tế</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link"> Kinh
-                                            doanh tổng hợp</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Giáo Trình - SGK - Từ Điển</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Từ
-                                            Điển</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
-                                            Giáo Khoa</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
-                                            Giáo Trình</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
-                                            Nâng Cao</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Kỹ Năng</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Làm
-                                            Giàu</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Phát
-                                            triển bản thân</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Hướng
-                                            nghiệp</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
-                                            sống</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
-                                            làm việc</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
-                                            học tập</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
-                                            tư duy</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Văn Học</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Ngôn
-                                            Tình</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
-                                            Dài - Tiểu Thuyết</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tự
-                                            Truyện</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
-                                            ngắn - Tản văn</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Trinh
-                                            Thám</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
-                                            tranh</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Thơ
-                                            ca</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Light
-                                            Novel</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Văn hóa - Xã hội</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Chính
-                                            trị - Pháp luật</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tôn
-                                            giáo - Tâm linh</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Giáo
-                                            dục</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Khoa
-                                            học xã hội</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Lịch
-                                            sử</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Địa
-                                            danh - Du lịch</a></li>
-                                </ul>
-                            </div>
-
-
-
-                            <div class="sidebar__category">
-                                <div class="sidebar__category-header"><a href=""
-                                        class="sidebar__category-header-link">Sách Chăm sóc gia đình</a></div>
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Nuôi
-                                            dạy con</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Chăm
-                                            sóc sức khỏe</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Phụ nữ
-                                            - Làm đẹp</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Ẩm thực
-                                            cuộc sống</a></li>
-                                    <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tâm lý
-                                            - Giới tính</a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                        <!-- Nhà cung cấp -->
-                        <div class="sidebar">
-                            <div class="sidebar__header">
-                                <h4 class="sidebar__header-name">NHÀ CUNG CẤP</h4>
-                                <div class="sidebar__header-interaction">
-                                    <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
-                                    <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Thiếu nhi</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link action">Cổ tích
+                                                - Thần thoại</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kiến
+                                                thức - Bách khoa</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Bài học
+                                                cuộc sống</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
+                                                tranh</a></li>
+                                    </ul>
                                 </div>
-                            </div>
-
-                            <div class="sidebar__category css-sidebar2">
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Bách Việt</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Alphabooks</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Minh Long Books</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Quảng Văn</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Waka</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">1980 Books</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Saigon Books</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Ánh Dương Books</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">CRABITKIDBOOKS</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Thaihabooks</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Phúc Minh Books</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">TH Books - Sách Thể Thao</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Shubooks</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">First News</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">U INTERNATIONAL HUMAN</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">BestBooks</a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-
-                        <!-- Giá bán -->
-                        <div class="sidebar">
-                            <div class="sidebar__header">
-                                <h4 class="sidebar__header-name">GIÁ BÁN</h4>
-                                <div class="sidebar__header-interaction">
-                                    <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
-                                    <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Kinh Doanh</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Khởi
+                                                nghiệp</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link">Marketing - Bán hàng</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Quản
+                                                trị - Lãnh đạo</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Đầu tư
+                                                - Tài chính</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kiến
+                                                thức kinh tế</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link"> Kinh
+                                                doanh tổng hợp</a></li>
+                                    </ul>
                                 </div>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Giáo Trình - SGK - Từ Điển</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Từ
+                                                Điển</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
+                                                Giáo Khoa</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
+                                                Giáo Trình</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Sách
+                                                Nâng Cao</a></li>
+                                    </ul>
+                                </div>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Kỹ Năng</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Làm
+                                                Giàu</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Phát
+                                                triển bản thân</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Hướng
+                                                nghiệp</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
+                                                sống</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
+                                                làm việc</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
+                                                học tập</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Kỹ năng
+                                                tư duy</a></li>
+                                    </ul>
+                                </div>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Văn Học</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Ngôn
+                                                Tình</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
+                                                Dài - Tiểu Thuyết</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tự
+                                                Truyện</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
+                                                ngắn - Tản văn</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Trinh
+                                                Thám</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Truyện
+                                                tranh</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Thơ
+                                                ca</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Light
+                                                Novel</a></li>
+                                    </ul>
+                                </div>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Văn hóa - Xã hội</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Chính
+                                                trị - Pháp luật</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tôn
+                                                giáo - Tâm linh</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Giáo
+                                                dục</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Khoa
+                                                học xã hội</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Lịch
+                                                sử</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Địa
+                                                danh - Du lịch</a></li>
+                                    </ul>
+                                </div>
+    
+    
+    
+                                <div class="sidebar__category">
+                                    <div class="sidebar__category-header"><a href=""
+                                            class="sidebar__category-header-link">Sách Chăm sóc gia đình</a></div>
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Nuôi
+                                                dạy con</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Chăm
+                                                sóc sức khỏe</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Phụ nữ
+                                                - Làm đẹp</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Ẩm thực
+                                                cuộc sống</a></li>
+                                        <li class="sidebar__category-item"><a href="" class="sidebar__category-link">Tâm lý
+                                                - Giới tính</a></li>
+                                    </ul>
+                                </div>
+    
                             </div>
-
-                            <div class="sidebar__category css-sidebar2">
-                                <ul class="sidebar__category-list">
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">
-                                            < 50.000đ</a> </li> <li class="sidebar__category-item"><a href=""
-                                                    class="sidebar__category-link move_left">Từ 50.000đ - 70.000đ</a>
-                                    </li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Từ 70.000đ - 100.000đ</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left">Từ 100.000đ - 150.000đ</a></li>
-                                    <li class="sidebar__category-item"><a href=""
-                                            class="sidebar__category-link move_left"> >= 150.000đ</a></li>
-                                </ul>
+    
+                            <!-- Nhà cung cấp -->
+                            <div class="sidebar">
+                                <div class="sidebar__header">
+                                    <h4 class="sidebar__header-name">NHÀ CUNG CẤP</h4>
+                                    <div class="sidebar__header-interaction">
+                                        <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
+                                        <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+                                    </div>
+                                </div>
+    
+                                <div class="sidebar__category css-sidebar2">
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Bách Việt</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Alphabooks</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Minh Long Books</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Quảng Văn</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Waka</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">1980 Books</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Saigon Books</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Ánh Dương Books</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">CRABITKIDBOOKS</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Thaihabooks</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Phúc Minh Books</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">TH Books - Sách Thể Thao</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Shubooks</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">First News</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">U INTERNATIONAL HUMAN</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">BestBooks</a></li>
+                                    </ul>
+                                </div>
+    
                             </div>
-
-                        </div>
+    
+                            <!-- Giá bán -->
+                            <div class="sidebar">
+                                <div class="sidebar__header">
+                                    <h4 class="sidebar__header-name">GIÁ BÁN</h4>
+                                    <div class="sidebar__header-interaction">
+                                        <span class="sidebar__header-interaction--plus"><i class="fas fa-plus"></i></span>
+                                        <span class="sidebar__header-interaction--minus"><i class="fas fa-minus"></i></span>
+                                    </div>
+                                </div>
+    
+                                <div class="sidebar__category css-sidebar2">
+                                    <ul class="sidebar__category-list">
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">
+                                                < 50.000đ</a> </li> <li class="sidebar__category-item"><a href=""
+                                                        class="sidebar__category-link move_left">Từ 50.000đ - 70.000đ</a>
+                                        </li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Từ 70.000đ - 100.000đ</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left">Từ 100.000đ - 150.000đ</a></li>
+                                        <li class="sidebar__category-item"><a href=""
+                                                class="sidebar__category-link move_left"> >= 150.000đ</a></li>
+                                    </ul>
+                                </div>
+    
+                            </div>
                     </div>
-
-                    <div class="col l-12-4">
+                    
+                    <div class="col l-12-4 m-12">
                         <div class="main__container">
                             <div class="main__container--wrap">
                                 <div class="main__container-header">
@@ -424,7 +426,7 @@
                                 </div>
                                 <div class="main__container-head">
                                     <ul class="main__container-head-list">
-                                        <li class="main__container-head-item">
+                                        <li class="main__container-head-item hide-ipadnmobile">
                                             <p class="main__container-head-sub">Sắp xếp theo:</p>
                                         </li>
                                         <li class="main__container-head-item"><a href=""
@@ -441,8 +443,9 @@
                                 </div>
 
                                 <div class="main__products-wrap row">
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -457,9 +460,10 @@
                                             <span class="main__product-pride--current">32,000đ</span>
                                             <span class="main__product-pride--old">40,000đ</span>
                                             <span class="main__product-pride--saleoff">-20%</span>
+                                        </div>    
                                         </div>
-
-                                        <div class="main__product-review">
+                                        <div class="main_products-down">
+                                                                         <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -476,10 +480,15 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
+                                        </div>
+                                        
+
+           
                                     </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product2.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -494,9 +503,10 @@
                                             <span class="main__product-pride--current">32,000đ</span>
                                             <span class="main__product-pride--old">40,000đ</span>
                                             <span class="main__product-pride--saleoff">-20%</span>
+                                        </div>    
                                         </div>
-
-                                        <div class="main__product-review">
+                                        <div class="main_products-down">
+                                                                         <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -513,47 +523,56 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
+                                        </div>
+                                        
+
+           
                                     </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
-                                            <div class="main__product-img"
-                                                style="background-image: url(/assets/img/product3.jpg);"></div>
-                                            <div class="main__product-img-label btn">Đặt Ngay</div>
-                                        </a>
-
-                                        <a href="" class="main__product-link">
-                                            <div class="main__product-name">Hồ sơ á thần (phần 4.5 series Percy Jackson
-                                                và các vị thần trên đỉnh Olympus) (Tái bản 2020)</div>
-                                        </a>
-
-                                        <div class="main__product-pride">
-                                            <span class="main__product-pride--current">67,500đ</span>
-                                            <span class="main__product-pride--old">75,000đ</span>
-                                            <span class="main__product-pride--saleoff">-10%</span>
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
+                                                <div class="main__product-img"
+                                                    style="background-image: url(/assets/img/product3.jpg);"></div>
+                                                <div class="main__product-img-label btn">Đặt Ngay</div>
+                                            </a>
+    
+                                            <a href="" class="main__product-link">
+                                                <div class="main__product-name">Hồ sơ á thần (phần 4.5 series Percy Jackson
+                                                    và các vị thần trên đỉnh Olympus) (Tái bản 2020)</div>
+                                            </a>
+    
+                                            <div class="main__product-pride">
+                                                <span class="main__product-pride--current">67,500đ</span>
+                                                <span class="main__product-pride--old">75,000đ</span>
+                                                <span class="main__product-pride--saleoff">-10%</span>
+                                            </div>
                                         </div>
 
-                                        <div class="main__product-review">
-                                            <ul class="main__product-rateList">
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                            </ul>
-
-                                            <p class="main__product-numberCmt">(0 Nhận xét )</p>
-                                        </div>
-
-                                        <div class="main__product-active">
-                                            <span class="main__product-like"><i
-                                                    class="color_base fas fa-heart"></i></span>
-                                            <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
+                                        <div class="main__products-down">
+                                            <div class="main__product-review">
+                                                <ul class="main__product-rateList">
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                </ul>
+    
+                                                <p class="main__product-numberCmt">(0 Nhận xét )</p>
+                                            </div>
+    
+                                            <div class="main__product-active">
+                                                <span class="main__product-like"><i
+                                                        class="color_base fas fa-heart"></i></span>
+                                                <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
+                                            </div>
                                         </div>
                                     </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product4.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -568,8 +587,8 @@
                                             <span class="main__product-pride--old">39,000đ</span>
                                             <span class="main__product-pride--saleoff">-10%</span>
                                         </div>
-
-                                        <div class="main__product-review">
+    
+                                        </div>  <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -586,10 +605,16 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
-                                    </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                        <div class="main_products-down">
+
+                                        </div>
+                                        
+                                                                            </div>
+
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -604,9 +629,10 @@
                                             <span class="main__product-pride--current">32,000đ</span>
                                             <span class="main__product-pride--old">40,000đ</span>
                                             <span class="main__product-pride--saleoff">-20%</span>
+                                        </div>    
                                         </div>
-
-                                        <div class="main__product-review">
+                                        <div class="main_products-down">
+                                                                         <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -623,10 +649,15 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
+                                        </div>
+                                        
+
+           
                                     </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -641,9 +672,10 @@
                                             <span class="main__product-pride--current">32,000đ</span>
                                             <span class="main__product-pride--old">40,000đ</span>
                                             <span class="main__product-pride--saleoff">-20%</span>
+                                        </div>    
                                         </div>
-
-                                        <div class="main__product-review">
+                                        <div class="main_products-down">
+                                                                         <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -660,10 +692,15 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
+                                        </div>
+                                        
+
+           
                                     </div>
 
-                                    <div class="main__products col l-3">
-                                        <a href="" class="main__product-link">
+                                    <div class="main__products col l-3 m-4">
+                                        <div class="main__products-up">
+                                            <a href="" class="main__product-link">
                                             <div class="main__product-img"
                                                 style="background-image: url(/assets/img/product1.jpg);"></div>
                                             <div class="main__product-img-label btn">Đặt Ngay</div>
@@ -678,9 +715,10 @@
                                             <span class="main__product-pride--current">32,000đ</span>
                                             <span class="main__product-pride--old">40,000đ</span>
                                             <span class="main__product-pride--saleoff">-20%</span>
+                                        </div>    
                                         </div>
-
-                                        <div class="main__product-review">
+                                        <div class="main_products-down">
+                                                                         <div class="main__product-review">
                                             <ul class="main__product-rateList">
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
                                                 <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
@@ -697,6 +735,10 @@
                                                     class="color_base fas fa-heart"></i></span>
                                             <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
                                         </div>
+                                        </div>
+                                        
+
+           
                                     </div>
                                 </div>
 
