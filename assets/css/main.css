@@ -99,6 +99,10 @@ ul {
     color: var(--black-color);
 }
 
+.navbar__right-link-icon {
+    display: none;
+}
+
 .navbar__right-link:hover {
     color: var(--base-color);
 }
@@ -273,6 +277,10 @@ ul {
 }
 
 /* Thanh seach */
+.menu__search-label {
+    display: none;
+}
+
 .menu__search {
     border: 1px solid var(--base-color);
     width: 100%;
@@ -599,6 +607,7 @@ ul {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     margin-bottom: 10px;
+    height: 36px;
 }
 
 .main__product-name:hover {

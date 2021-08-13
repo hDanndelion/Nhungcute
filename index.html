@@ -16,7 +16,7 @@
 
 <body>
     <div id="page" class="wrapper">
-        <header id="header" class="header__fix">
+        <header id="header" class="he">
             <div class="grid wide">
                 <nav class="navbar">
                     <div class="navbar__left-logo"><a href=""><img class="navbar__left-logo-img" src="./assets/img/logo-waka.png"
@@ -158,6 +158,8 @@
                                 </ul>
                             </div>
 
+                            <input type="checkbox" class="hidden" id="menu__search-checkbox">
+                            
                             <div class="menu__search">
                                 <input class="menu__search-input" placeholder="Nhập tên sách" type="text">
                                 <i class="menu__search-icon fas fa-search"></i>
@@ -168,7 +170,10 @@
                     <div class="navbar__right">
                         <div class="navbar__right-top">
                             <a class="navbar__right-link navbar__right-top-dealHot" href="">Deal HOT</a>
-                            <a class="navbar__right-link" href="">Đăng nhập</a>
+                            <a class="navbar__right-link" href="">
+                                <span>Đăng nhập</span>
+                                <i class="navbar__right-link-icon far fa-user"></i>
+                            </a>
                         </div>
                         <div class="navbar__right-down">
                             <a class="navbar__right-link navbar__right-down-searchOrd" href="">Tra cứu đơn hàng</a>
@@ -178,6 +183,8 @@
                             </a>
                         </div>
                     </div>
+
+                    <label for="menu__search-checkbox" class="menu__search-label"><i class="menu__search-icon fas fa-search"></i></label>
                 </nav>
             </div>
         </header>
@@ -185,7 +192,7 @@
         <main id="main">
             <div class="grid wide">
                 <div class="main__content row">
-                    <div class="sidebar__wrap col l-12-1 m-12">
+                    <div class="sidebar__wrap col l-12-1 m-12 c-12">
                             <!-- Danh mục sản phẩm -->
                             <div class="sidebar">
                                 <div class="sidebar__header">
@@ -443,7 +450,7 @@
                                 </div>
 
                                 <div class="main__products-wrap row">
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                             <div class="main__product-img"
@@ -486,7 +493,7 @@
            
                                     </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                             <div class="main__product-img"
@@ -529,7 +536,7 @@
            
                                     </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                                 <div class="main__product-img"
@@ -570,49 +577,49 @@
                                         </div>
                                     </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
-                                            <div class="main__product-img"
-                                                style="background-image: url(/assets/img/product4.jpg);"></div>
-                                            <div class="main__product-img-label btn">Đặt Ngay</div>
-                                        </a>
+                                                <div class="main__product-img"
+                                                    style="background-image: url(/assets/img/product4.jpg);"></div>
+                                                <div class="main__product-img-label btn">Đặt Ngay</div>
+                                            </a>
 
-                                        <a href="" class="main__product-link">
-                                            <div class="main__product-name">Áo giáp sầu riêng</div>
-                                        </a>
+                                            <a href="" class="main__product-link">
+                                                <div class="main__product-name">Áo giáp sầu riêng</div>
+                                            </a>
 
-                                        <div class="main__product-pride">
-                                            <span class="main__product-pride--current">35,100đ</span>
-                                            <span class="main__product-pride--old">39,000đ</span>
-                                            <span class="main__product-pride--saleoff">-10%</span>
-                                        </div>
-    
-                                        </div>  <div class="main__product-review">
-                                            <ul class="main__product-rateList">
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                                <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
-                                            </ul>
-
-                                            <p class="main__product-numberCmt">(0 Nhận xét )</p>
-                                        </div>
-
-                                        <div class="main__product-active">
-                                            <span class="main__product-like"><i
-                                                    class="color_base fas fa-heart"></i></span>
-                                            <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
-                                        </div>
+                                            <div class="main__product-pride">
+                                                <span class="main__product-pride--current">35,100đ</span>
+                                                <span class="main__product-pride--old">39,000đ</span>
+                                                <span class="main__product-pride--saleoff">-10%</span>
+                                            </div>
+                                        </div>  
 
                                         <div class="main_products-down">
+                                            <div class="main__product-review">
+                                                <ul class="main__product-rateList">
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                    <li class="main__product-rateItem"><i class="fas fa-star"></i></li>
+                                                </ul>
+    
+                                                <p class="main__product-numberCmt">(0 Nhận xét )</p>
+                                            </div>
+    
+                                            <div class="main__product-active">
+                                                <span class="main__product-like"><i
+                                                        class="color_base fas fa-heart"></i></span>
+                                                <span class="main__product-cart"><i class="fas fa-cart-plus"></i></span>
+                                            </div>
 
                                         </div>
                                         
                                                                             </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                             <div class="main__product-img"
@@ -655,7 +662,7 @@
            
                                     </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                             <div class="main__product-img"
@@ -698,7 +705,7 @@
            
                                     </div>
 
-                                    <div class="main__products col l-3 m-4">
+                                    <div class="main__products col l-3 m-4 c-12">
                                         <div class="main__products-up">
                                             <a href="" class="main__product-link">
                                             <div class="main__product-img"
@@ -773,9 +780,9 @@
         <footer id="footer">
             <div class="footer grid wide">
                 <div class="footer__content row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-12">
                         <div class="row">
-                            <div class="col l-4">
+                            <div class="col l-4 m-4 c-12">
                                 <p class="footer__content-heading">Hỗ trợ khách hàng</p>
 
                                 <ul class="footer__content-list">
@@ -797,7 +804,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col l-4">
+                            <div class="col l-4 m-4 c-12">
                                 <p class="footer__content-heading">Chính sách</p>
 
                                 <ul class="footer__content-list">
@@ -813,7 +820,7 @@
                                 </ul>
                             </div>
 
-                            <div class="col l-4">
+                            <div class="col l-4 m-4 c-12">
                                 <p class="footer__content-heading">Tài khoản của bạn</p>
 
                                 <ul class="footer__content-list">
@@ -834,7 +841,7 @@
                         </div>
                     </div>
 
-                    <div class="col l-6">
+                    <div class="col l-6 m-12">
                         <div class="row">
                             <p class="footer__content-heading">Đăng ký nhận thông tin sách mới,mã giảm giá, CTKM</p>
 
@@ -882,5 +889,7 @@
         <a href="#page"><img class="return-to-top hidden-PC" src="/assets/img/top.png" alt="GOtoTOP"></a>
     </div>
 </body>
+
+<script src="./assets/js/index.js"></script>
 
 </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<html>
+<style>
+  #header {
+    height: 20px;
+  }
+
+  .header__fix {
+    background-color: red;
+  }
+</style>
+
+<body>
+
+  <div id="header"></div>
+
+  <input type="checkbox" class="" id="menu__search-checkbox">
+  <label for="menu__search-checkbox" class="menu__search-label"><i class="menu__search-icon fas fa-search"></i></label>
+
+</body>
+<script>
+  document.getElementsByTagName("BODY")[0].onresize = function () {
+    addClass();
+  };
+
+  function addClass() {
+    var heaDer = document.getElementById('header');
+    let sizeBrowser = window.innerWidth;
+    let headerFix = document.getElementsByClassName('header__fix');
+    let checkClass = headerFix.length;
+    if ((sizeBrowser < 1024) && (checkClass == 0)) {
+      heaDer.classList.add('header__fix');
+    }
+
+    if ((sizeBrowser >= 1024) && (checkClass == 1)) {
+      heaDer.classList.remove('header__fix');
+    }
+  }
+  window.onload = function () {
+    addClass();
+  }
+</script>
+
+</html>
